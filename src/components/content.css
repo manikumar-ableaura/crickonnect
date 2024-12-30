@@ -1,0 +1,97 @@
+.img-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-top: 110px;
+    gap: 2%; /* Space between containers */
+    width: 100%;
+}
+
+
+.container, .container1, .container2 {
+    position: relative; /* Relative positioning for alignment */
+    width: 100%; /* Image fills the container */
+    height: 100%;
+        /* Match the image height */
+}
+
+
+.text-block, .text-block1 {
+    position: absolute; /* Align text relative to the parent */
+    bottom: 10%;        /* Position text at the bottom */
+    left: 50%;          /* Center the text horizontally */
+   
+    color: white;       /* Text color */
+   
+    padding: 10px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+
+.text-block p{
+    color:#cccccc;
+    font-family: HelveticaNeueMedium;
+    font-size: 29px;
+    width: 99%;
+    margin-top: 0;
+    text-align: left;
+    text-shadow: 2px 2px #000;
+
+}
+
+.text-block h3{
+    color: #cccccc;
+    font-family: HelveticaNeueMedium;
+    font-size: 40px;
+    margin-bottom: 8px;
+    text-shadow: 2px 2px #000;
+
+}
+
+.text-block button{
+    background-color: #ccc;
+    border: none;
+    border-radius: 50px;
+    color: #111;
+    cursor: pointer;
+    font-family: HelveticaNeueMedium;
+    font-size: 18px;
+    margin-top: 14px;
+    padding: 8px 20px;
+}
+
+
+
+.text-block1 p{
+    color:#cccccc;
+    font-family: HelveticaNeueMedium;
+    font-size: 29px;
+    width: 99%;
+    margin-top: 0;
+    text-align: left;
+    text-shadow: 2px 2px #000;
+
+}
+
+.text-block1 h3{
+    color: #cccccc;
+    font-family: HelveticaNeueMedium;
+    font-size: 40px;
+    margin-bottom: 8px;
+    text-shadow: 2px 2px #000;
+
+}
+
+.text-block1 button{
+    background-color: #ccc;
+    border: none;
+    border-radius: 50px;
+    color: #111;
+    cursor: pointer;
+    font-family: HelveticaNeueMedium;
+    font-size: 18px;
+    margin-top: 14px;
+    padding: 8px 20px;
+}

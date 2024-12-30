@@ -1,0 +1,57 @@
+.App {
+  font-size: 24px;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.head {
+  color: #111;
+  font-family: HelveticaNeueCondensedBold;
+  font-size: 80px;
+  letter-spacing: -3.1px;
+  margin-bottom: 0;
+  text-align: center;
+
+
+}
+
+.parag {
+  color: #111;
+  font-family: HelveticaNeueLight;
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: .7px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+
+}

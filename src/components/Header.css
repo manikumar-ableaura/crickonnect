@@ -1,0 +1,38 @@
+.header {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    height: 90px;
+    display: flex;   
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+.logo .dome {
+    cursor: pointer;
+    height: 105px;
+    object-fit: cover;
+    width: 270px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    font-family: sans-serif;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
