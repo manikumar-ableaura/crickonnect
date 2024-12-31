@@ -3,9 +3,15 @@ import './content.css';
 import R1 from './img/R1.jpg';
 import R2 from './img/R2.jpg';
 import R3 from './img/R3.jpg';
+import { useNavigate } from "react-router-dom";
 
 
 function Content() {
+    const navigate = useNavigate();
+
+    const handleButtonClick = () => {
+        navigate("/oops");
+    };
     return (
         <div className="img-block">
             <div className="container">
@@ -17,7 +23,7 @@ function Content() {
                 <div className="text-block1">
                     <h3>Create Team</h3>
                     <p>Unleash Your Squad – Form the Ultimate Team!</p>
-                    <button>Create</button>
+                    <button onClick={handleButtonClick}>Create</button>
                 </div>
             </div>
             <div className="container1">
@@ -29,7 +35,7 @@ function Content() {
                 <div className="text-block2">
                     <h3>Match Booking</h3>
                     <p>Seize the Pitch – Book Your Battle Now!</p>
-                    <button>Book</button>
+                    <button onClick={handleButtonClick}>Book</button>
                 </div>
             </div>
             <div className="container2">
@@ -39,9 +45,9 @@ function Content() {
                     alt="cricket info"
                 />
                 <div className="text-block3">
-                    <h3>View Stats</h3>
-                    <p>Explore Your Cricket Journey!</p>
-                    <button>View</button>
+                    <h3>Tourmnament Booking</h3>
+                    <p>Claim Glory - Enter the tournament Arena!</p>
+                    <button onClick={handleButtonClick}>Join</button>
                 </div>
             </div>
         </div>
