@@ -14,7 +14,7 @@ function Content() {
                     src={R1}
                     alt="cricket info"
                 />
-                <div className="text-block">
+                <div className="text-block1">
                     <h3>Create Team</h3>
                     <p>Unleash Your Squad – Form the Ultimate Team!</p>
                     <button>Create</button>
@@ -26,7 +26,7 @@ function Content() {
                     src={R2}
                     alt="cricket info"
                 />
-                <div className="text-block">
+                <div className="text-block2">
                     <h3>Match Booking</h3>
                     <p>Seize the Pitch – Book Your Battle Now!</p>
                     <button>Book</button>
@@ -38,7 +38,7 @@ function Content() {
                     src={R3}
                     alt="cricket info"
                 />
-                <div className="text-block">
+                <div className="text-block3">
                     <h3>View Stats</h3>
                     <p>Explore Your Cricket Journey!</p>
                     <button>View</button>

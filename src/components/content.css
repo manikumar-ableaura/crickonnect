@@ -7,69 +7,22 @@
     position: relative;
 }
 
-
-.container,
-.container1,
-.container2 {
+.content, .content1, .content2 {
     position: relative;
-    width: 100%;
-    height: 100%;
+    height: 520px;
     object-fit: cover;
-}
+    width: 100%;}
 
 
-.text-block,
-.text-block1 {
+
+.text-block1
+
+{
+    left: 8%;
     position: absolute;
-8   
-    bottom: 10%;
-   
-    left: 50%;
-  
-    transform: translateX(-50%);
-   
-    color: #cccccc;
-  
-    background-color: rgba(0, 0, 0, 0.6);
-  
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
-}
-
-
-.text-block p {
-    color: #cccccc;
-    font-family: HelveticaNeueMedium;
-    font-size: 29px;
-    width: 99%;
-    margin-top: 0;
-    text-align: left;
-    text-shadow: 2px 2px #000;
+    top: 50%;
 
 }
-
-.text-block h3 {
-    color: #cccccc;
-    font-family: HelveticaNeueMedium;
-    font-size: 40px;
-    margin-bottom: 8px;
-    text-shadow: 2px 2px #000;
-
-}
-
-.text-block button {
-    background-color: #ccc;
-    border: none;
-    border-radius: 50px;
-    color: #111;
-    cursor: pointer;
-    font-family: HelveticaNeueMedium;
-    font-size: 18px;
-    margin-top: 14px;
-    padding: 8px 20px;
-}
-
 
 
 .text-block1 p {
@@ -103,3 +56,89 @@
     margin-top: 14px;
     padding: 8px 20px;
 }
+
+
+.text-block2
+
+{
+    left: 8%;
+    position: absolute;
+    top: 50%;
+
+}
+
+
+.text-block2 p {
+    color: #cccccc;
+    font-family: HelveticaNeueMedium;
+    font-size: 29px;
+    width: 99%;
+    margin-top: 0;
+    text-align: left;
+    text-shadow: 2px 2px #000;
+
+}
+
+.text-block2 h3 {
+    color: #cccccc;
+    font-family: HelveticaNeueMedium;
+    font-size: 40px;
+    margin-bottom: 8px;
+    text-shadow: 2px 2px #000;
+
+}
+
+.text-block2 button {
+    background-color: #ccc;
+    border: none;
+    border-radius: 50px;
+    color: #111;
+    cursor: pointer;
+    font-family: HelveticaNeueMedium;
+    font-size: 18px;
+    margin-top: 14px;
+    padding: 8px 20px;
+}
+
+.text-block3
+
+{
+    left: 8%;
+    position: absolute;
+    top: 50%;
+
+}
+
+
+.text-block3 p {
+    color: #cccccc;
+    font-family: HelveticaNeueMedium;
+    font-size: 29px;
+    width: 99%;
+    margin-top: 0;
+    text-align: left;
+    text-shadow: 2px 2px #000;
+
+}
+
+.text-block3 h3 {
+    color: #cccccc;
+    font-family: HelveticaNeueMedium;
+    font-size: 40px;
+    margin-bottom: 8px;
+    text-shadow: 2px 2px #000;
+
+}
+
+.text-block3 button {
+    background-color: #ccc;
+    border: none;
+    border-radius: 50px;
+    color: #111;
+    cursor: pointer;
+    font-family: HelveticaNeueMedium;
+    font-size: 18px;
+    margin-top: 14px;
+    padding: 8px 20px;
+}
+
