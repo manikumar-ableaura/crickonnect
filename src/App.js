@@ -1,22 +1,20 @@
 import React from 'react';
-import Header from './components/Header';
-import './App.css';
-import Content from './components/content'; 
-
+import Home from './components/Home/Home';
+import { Routes, Route } from 'react-router-dom';
+import Login from './components/Login/Login';
+import MyTeam from './components/MyTeam/MyTeam';
 
 function App() {
   return (
     <div>
-      <Header />
-      <main>
-        <section id="home">
-          <h1 className='head'> STEP ONTO THE FIELD OF YOUR DREAMS!</h1>
-        </section>
-        <section id="para">
-          <p className='parag'>Effortlessly organize and join cricket matches and tournaments—anytime, anywhere.</p>
-        </section>
-        <Content />
-      </main>
+
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/myteam' element={<MyTeam/>} />
+      </Routes>
+
+
     </div>
   );
 }
