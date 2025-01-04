@@ -14,13 +14,13 @@ const Header = () => {
             <nav className="nav">
                 <ul>
                     <li><a href="/myteam">My Team </a></li>
-                    <li><a href="#Match Booking">Match Booking</a></li>
+                    <li><a href="/booking">Match Booking</a></li>
                     <li><a href="#Tournaments">Tournaments</a></li>
                     <li><a href="/login">Login</a></li>
                 </ul>
             </nav>
         </div>
-    );
+    );      
 };
 
 export default Header;

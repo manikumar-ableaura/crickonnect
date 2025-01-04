@@ -8,7 +8,7 @@ function MyTeam() {
         <><Header />
 
 
-            <main className=" layout-main-container">
+            <main className="layout-main-container">
                 <h1>CREATE YOUR TEAM</h1>
                 <div className="con">
 
@@ -35,18 +35,22 @@ function MyTeam() {
                                 <option value="Salem">Salem</option>
                                 <option value="Dindigul">Dindigul</option></select>
                         </div>
-                        <div className="div6">
-                            <label>Does Your Team Have Own Ground? *</label></div>
-                        <div className="div7">
-                            <label>
-                                <input type="radio" name="hasOwnGround" value="Yes" /> Yes
-                            </label>
+                        <div className="seperatediv">
 
-                            <label>
-                                <input type="radio" name="hasOwnGround" value="No" /> No
-                            </label>
+                            
+                                <label className="lab" >Does Your Team Have Own Ground? *</label>
+                                <div className="div6">
+
+                                    <label>
+                                        <input type="radio" name="hasOwnGround" value="Yes" /> Yes
+                                    </label>
+
+                                    <label>
+                                        <input type="radio" name="hasOwnGround" value="No" /> No
+                                    </label>
+                                </div>
+                         
                         </div>
-
                     </div>
 
 

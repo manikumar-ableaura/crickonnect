@@ -36,3 +36,19 @@
     font-size: 1.1rem;
     transition: color .3s;
 }
+
+@media (max-width: 768px) {
+
+    .Header {
+        width: 100% !important;
+        flex-wrap: wrap;
+    }
+
+    .logo .dome {
+        cursor: pointer;
+        height: 105px;
+        width: 210px;
+    }
+
+   
+}

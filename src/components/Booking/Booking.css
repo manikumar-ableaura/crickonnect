@@ -1,0 +1,99 @@
+.cont {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+    display: block;
+    height: auto;
+    margin: 70px auto auto;
+    padding: 1rem;
+    width: 70%;
+}
+
+.cont h2 {
+
+    color: #000;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.book-sec {
+
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 4px;
+    position: relative;
+}
+
+.book-sub-sec {
+
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.book-sub-sec p {
+    font-family: monospace;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.pend {
+
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.pendi {
+
+    color: rgb(31, 119, 201);
+    font-weight: 700;
+}
+
+.book-sec1 {
+    align-items: center;
+    font-weight: bold;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.book-sec1 p {
+
+    font-family: sans-serif;
+    font-size: 22px;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-transform: uppercase;
+
+}
+
+.opt {
+
+    border: 1px solid hsla(0, 0%, 46%, .459);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .12), 0 1px 2px rgba(0, 0, 0, .24);
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 46px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    width: auto;
+
+
+
+}
