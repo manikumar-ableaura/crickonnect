@@ -146,7 +146,8 @@
     letter-spacing: 1px;
 }
 
-.book-sec2 .getlink, .book-sec4 .getlink  {
+.book-sec2 .getlink,
+.book-sec4 .getlink {
     font-family: cursive;
     font-size: 10px;
     text-transform: uppercase;
@@ -269,7 +270,7 @@
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 786px) {
     .cont {
         padding: 1rem;
         width: 90%;
@@ -283,19 +284,32 @@
         margin-left: 0;
     }
 
-  
+    .book-sec2 h3,
+    .book-sec3 h3,
+    .book-sec4 h3 {
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .book-sec2 p,
+    .book-sec3 p,
+    .book-sec4 p {
+        text-align: center;
+    }
+
     .book-sec2 .getlink,
     .book-sec3 .getlink,
     .book-sec4 .getlink {
         font-family: cursive;
         font-size: 12px;
         text-transform: uppercase;
-        margin-left: 140px;
+        margin-left: 135px;
     }
 
     .venue {
         flex-direction: column;
-        gap: 2rem;
+        gap: 0;
+        margin-bottom: -30px;
     }
 
     .venue img {
@@ -314,6 +328,6 @@
     }
 
     .Book-con {
-        margin-bottom: 75px;
+        margin-bottom: 50px;
     }
 }
