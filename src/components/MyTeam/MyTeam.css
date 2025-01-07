@@ -3,6 +3,9 @@
     font-size: 40px;
     letter-spacing: 1px;
     margin-top: 90px;
+    margin-bottom: 50px;
+   text-decoration: dotted;
+    margin-left: 85px;
     text-align: center !important;
     text-transform: uppercase;
 }
@@ -181,17 +184,17 @@
         margin: auto;
     }
 
-    .lab{
+    .lab {
         letter-spacing: -1px;
     }
 
-    .press{
+    .press {
         width: 50%;
         height: 40px;
         margin-left: 60px;
     }
 
-    .div5 .dropdown{
+    .div5 .dropdown {
         width: 116%;
         margin: auto;
 

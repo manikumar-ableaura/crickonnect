@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../Header";
+
 import "./MyTeam.css";
 
 function MyTeam() {
 
     return (
-        <><Header />
+        <>
 
 
             <main className="layout-main-container">

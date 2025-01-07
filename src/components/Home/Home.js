@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header';
+
 import "../../App.css";
 import Content from "../content"
 
@@ -8,7 +8,7 @@ function Home() {
 
     return (
         <div>
-            <Header />
+           
             <main>
                 <section id="home">
                     <h1 className='head'> STEP ONTO THE FIELD OF YOUR DREAMS!</h1>
