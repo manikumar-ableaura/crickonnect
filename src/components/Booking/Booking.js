@@ -1,6 +1,12 @@
 import React from "react";
 import "./Booking.css";
-import venue from "../image/grounde.jpg";
+import place1 from "../image/grounde.jpg";
+import place2 from "../image/a.jpg";
+import place3 from "../image/g1.jpg";
+import place4 from "../image/g2.jpg";
+import place5 from "../image/g3.jpg";
+import place6 from "../image/g4.jpg";
+
 
 
 
@@ -9,219 +15,74 @@ import venue from "../image/grounde.jpg";
 function Booking() {
 
 
+    const groundDetails = [
+        {
+            groundImg: place1,
+            groundName: "Chepauk",
+            groundFee: 1000,
+            location: "href=https://www.google.com/maps",
+        },
+
+        {
+            groundImg: place2,
+            groundName: "mahatma",
+            groundFee: 2000,
+            location: "href=https://www.google.com/maps",
+        },
+
+        {
+            groundImg: place3,
+            groundName: "nehru",
+            groundFee: 3000,
+            location: "href=https://www.google.com/maps",
+        },
+
+        {
+            groundImg: place4,
+            groundName: "Irunga",
+            groundFee: 4000,
+            location: "href=https://www.google.com/maps",
+        },
+
+        {
+            groundImg: place5,
+            groundName: "Bhai",
+            groundFee: 5000,
+            location: "href=https://www.google.com/maps",
+        },
+
+        {
+            groundImg: place6,
+            groundName: "kilpauk",
+            groundFee: 6000,
+            location: "href=https://www.google.com/maps",
+        }
+    ]
+
+
     return (
-        <>
-            <main className="Book-con">
-                <div className="cont">
-                    <h2>Your Booking </h2>
-
-                    <div className="book-sec">
-                        <div className="book-sub-sec">
-                            <h3>DC Cricket Ground</h3>
-                            <p>January 5, 2025</p>
-                            <p>morning</p>
-                            <p class="pend"><span class="pendi">pending</span></p>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div className="cont1">
-                    <div className="book-sec1">
-                        <p>2 Grounds Available in </p>
-                        <select id="location" class="opt">
-                            <option value="" disabled="">-- Select a City --</option>
-                            <option value="Bengaluru">Bengaluru</option>
-                            <option value="Hyderabad">Hyderabad</option>
-                            <option value="Chennai">Chennai</option>
-                            <option value="Tirupati">Tirupati</option>
-                            <option value="Kerala">Kerala</option>
-                        </select>
-                    </div>
-                </div>
-
-
-                <div className="part1">
-                    <div className="cont2">
-                        <div className='bolt'>
-                            <div className='venue'>
-                                <img
-                                    className="img"
-                                    src={venue}
-                                    alt="Loading..." />
-
-                                <div className="book-sec2">
-                                    <h3>Mahtma Ground</h3>
-                                    <p> Price- $50 \ hr</p>
-                                    <a
-                                        href="https://www.google.com/maps"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="getlink"
-                                    >
-                                        Get  Directions
-                                    </a>
-                                </div>
+        <div className="main-div">
+            <div className="booking-conta">
+                {groundDetails.map((item, index) => (
+                    <div className="common">
+                        <div className="ground-card"
+                            key={index}>
+                            <img src={item.groundImg} alt={item.groundName} className="ground-image" />
+                            <div className="ground-info">
+                                <h3>{item.groundName}</h3>
+                                <p>Fee: ₹{item.groundFee}</p>
+                                <a href={item.location} target="_blank" rel="noopener noreferrer">Get directions</a>
                             </div>
-                            <button type="Book" className="btw">BOOK NOW</button>
                         </div>
+                        <button className="book-now-button">BOOK NOW!</button>
                     </div>
+                ))}
 
-                    <div className="cont3">
-                        <div className='malt'>
-                        <div className='venue'>
-                                <img
-                                    className="img"
-                                    src={venue}
-                                    alt="Loading..." />
+            </div>
 
-                                <div className="book-sec2">
-                                    <h3>National Ground</h3>
-                                    <p>Price- $80 \ hr</p>
-                                    <a
-                                        href="https://www.google.com/maps"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="getlink"
-                                    >
-                                        Get  Directions
-                                    </a>
-                                </div>
-                            </div>
-                            <button type="Book" className="bto">BOOK NOW</button>
-                        </div>
-                    </div>
-
-
-
-                    <div className="cont4">
-                        <div className='bolta'>
-                        <div className='venue'>
-                                <img
-                                    className="img"
-                                    src={venue}
-                                    alt="Loading..." />
-
-                                <div className="book-sec3">
-                                    <h3>Mahtma Ground</h3>
-                                    <p>Price- $50 \ hr</p>
-                                    <a
-                                        href="https://www.google.com/maps"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="getlink"
-                                    >
-                                        Get  Directions
-                                    </a>
-                                </div>
-                            </div>
-                            <button type="Book" className="btw">BOOK NOW</button>
-                        </div>
-                    </div>
-
-                    <div className="cont5">
-                        <div className='malta'>
-                        <div className='venue'>
-                                <img
-                                    className="img"
-                                    src={venue}
-                                    alt="Loading..." />
-                                <div className="book-sec3">
-                                    <h3>National Ground</h3>
-                                    <p>Price- $80 \ hr</p>
-                                    <a
-                                        href="https://www.google.com/maps"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="getlink"
-                                    >
-                                        Get  Directions
-                                    </a>
-                                </div>
-                            </div>
-                            <button type="Book" className="bto">BOOK NOW</button>
-                        </div>
-                    </div>
-
-
-
-                    <div className="cont6">
-                        <div className='bolta'>
-                        <div className='venue'>
-                                <img
-                                    className="img"
-                                    src={venue}
-                                    alt="Loading..." />
-
-                                <div className="book-sec4">
-                                    <h3>Mahtma Ground</h3>
-                                    <p>Price- $50 \ hr</p>
-                                    <a
-                                        href="https://www.google.com/maps"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="getlink"
-                                    >
-                                        Get  Directions
-                                    </a>
-                                </div>
-                            </div>
-                            <button type="Book" className="btw">BOOK NOW</button>
-                        </div>
-                    </div>
-
-                    <div className="cont7">
-                        <div className='malta'>
-                        <div className='venue'>
-                                <img
-                                    className="img"
-                                    src={venue}
-                                    alt="Loading..." />
-
-                                <div className="book-sec4">
-                                    <h3>National Ground</h3>
-                                    <p>Price- $80 \ hr</p>
-                                    <a
-                                        href="https://www.google.com/maps"
-                                        target="_blank"
-                                        className="getlink"
-                                    >
-                                        Get  Directions
-                                    </a>
-                                </div>
-                            </div>
-                            <button type="Book" className="bto">BOOK NOW</button>
-                        </div>
-                    </div>
-
-                </div>
-
-
-            </main>
-        </>
-
-    )
-
-
+        </div>
+    );
 }
 
+
 export default Booking
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
